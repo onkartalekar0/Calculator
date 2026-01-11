@@ -11,6 +11,10 @@ body {
     font-family: "Segoe UI", sans-serif;
 }
 
+.wrapper {
+    text-align: center;
+}
+
 .calculator {
     background: #1f1f2e;
     padding: 20px;
@@ -59,17 +63,9 @@ button:hover {
     color: #000;
 }
 
-.operator:hover {
-    background: #feca57;
-}
-
 .equal {
     background: #1dd1a1;
     color: #000;
-}
-
-.equal:hover {
-    background: #10ac84;
 }
 
 .clear {
@@ -77,10 +73,40 @@ button:hover {
     color: #000;
 }
 
-.clear:hover {
-    background: #ee5253;
-}
-
 .zero {
     grid-column: span 2;
 }
+
+/* Footer below calculator */
+/* Footer below calculator */
+.footer {
+    margin-top: 15px;
+    padding: 12px 15px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(6px);
+    text-align: center;
+}
+
+/* Follow Developer text – bigger */
+.footer span {
+    display: block;
+    font-size: 20px;      /* motha text */
+    font-weight: 600;     /* bold */
+    margin-bottom: 6px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.footer a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #ffd86f;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
