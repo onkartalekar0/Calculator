@@ -7,29 +7,39 @@
 </head>
 <body>
 
-<div class="calculator">
-    <input type="text" id="display" readonly>
+<div class="wrapper">
+    <div class="calculator">
+        <input type="text" id="display" readonly>
 
-    <div class="buttons">
-        <button class="clear" onclick="clearDisplay()">AC</button>
-        <button class="operator" onclick="append('/')">÷</button>
-        <button class="operator" onclick="append('*')">×</button>
-        <button class="operator" onclick="append('-')">−</button>
+        <div class="buttons">
+            <button class="clear" onclick="clearDisplay()">AC</button>
+            <button class="operator" onclick="append('/')">÷</button>
+            <button class="operator" onclick="append('*')">×</button>
+            <button class="operator" onclick="append('-')">−</button>
 
-        <button onclick="append('7')">7</button>
-        <button onclick="append('8')">8</button>
-        <button onclick="append('9')">9</button>
-        <button class="operator" onclick="append('+')">+</button>
+            <button onclick="append('7')">7</button>
+            <button onclick="append('8')">8</button>
+            <button onclick="append('9')">9</button>
+            <button class="operator" onclick="append('+')">+</button>
 
-        <button onclick="append('4')">4</button>
-        <button onclick="append('5')">5</button>
-        <button onclick="append('6')">6</button>
-        <button class="equal" onclick="calculate()">=</button>
+            <button onclick="append('4')">4</button>
+            <button onclick="append('5')">5</button>
+            <button onclick="append('6')">6</button>
+            <button class="equal" onclick="calculate()">=</button>
 
-        <button onclick="append('1')">1</button>
-        <button onclick="append('2')">2</button>
-        <button onclick="append('3')">3</button>
-        <button class="zero" onclick="append('0')">0</button>
+            <button onclick="append('1')">1</button>
+            <button onclick="append('2')">2</button>
+            <button onclick="append('3')">3</button>
+            <button class="zero" onclick="append('0')">0</button>
+        </div>
+    </div>
+
+    <!-- Footer outside calculator -->
+    <div class="footer">
+        <span>Follow Developer</span>
+        <a href="https://www.instagram.com/_onkar_talekar_?igsh=MTI1bDZ4dDZkM2ZoNg==" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/onkar-talekar-497958360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        <a href="https://x.com/onkar_talekar23?t=USuDq2ZwKdsTp2SWiHTCkQ&s=08" target="_blank">Twitter</a>
     </div>
 </div>
 
